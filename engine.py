@@ -51,8 +51,8 @@ def virusScanner(path):
         dir_list += [os.path.join(dirpath, file) for file in filenames]
 
     for i in dir_list:
-        print(i)
         if malware_checker(i) != 0:
+            print(i)
             virusName.append(malware_checker(i)+" :: File :: "+i)
             virusPath.append(i)
 
