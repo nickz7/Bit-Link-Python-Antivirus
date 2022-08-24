@@ -1,5 +1,3 @@
-from cProfile import label
-from cgitb import text
 from tkinter import*
 
 #--------------------Tkinter Base Setup ---------------------# 
